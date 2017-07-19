@@ -11,6 +11,7 @@ A system that collects vehicle survey data and provide different methods and uti
 
 ------------
 ## TODO or to improve
+- Convert project to maven/gradle managed application
 - Add configuration module that allows data such as AVERAGE vehicle length to be configurable
 - Assuming VehicleSurveyData will be provided say every month and we need to store all data into database, then need to add service to persist data and DataProcessor needs to invoke service for bulk update.
 - Add search module (eg: vehicle data should be indexed by DataProcessor and ReportService provides searching and filtering)
